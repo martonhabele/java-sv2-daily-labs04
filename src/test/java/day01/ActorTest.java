@@ -10,6 +10,7 @@ class ActorTest {
     public void createActor() {
         Actor actor =new Actor("John Doe", 1973);
 
+        assertEquals("John Doe", actor.getActorName());
         assertEquals(1973, actor.getActorYoB());
     }
 }
